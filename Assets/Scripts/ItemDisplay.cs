@@ -8,9 +8,10 @@ public class ItemDisplay : MonoBehaviour
     [SerializeField] private playerItemGather itemGather;
     [SerializeField] private TextMeshProUGUI itemText;
 
+    private Coroutine displayCoroutine;
+
     private void Start()
     {
-        UpdateItemText();
         itemGather.onItemPickup.AddListener(UpdateItemText);
     }
 
@@ -21,14 +22,29 @@ public class ItemDisplay : MonoBehaviour
 
     private void UpdateItemText()
     {
-        List<playerItemGather.ItemInfo> pickedItems = itemGather.GetPickedItems();
-        string itemDescriptionText = "";
-
-        foreach (playerItemGather.ItemInfo itemInfo in pickedItems)
+        if (displayCoroutine != null)
         {
-            itemDescriptionText += itemInfo.itemDescription + "\n";
+            StopCoroutine(displayCoroutine);
         }
 
-        itemText.text = itemDescriptionText;
+        List<playerItemGather.ItemInfo> pickedItems = itemGather.GetPickedItems();
+
+        if (pickedItems.Count > 0)
+        {
+            displayCoroutine = StartCoroutine(DisplayItemText(pickedItems[pickedItems.Count - 1].itemDescription));
+        }
+        else
+        {
+            itemText.text = "";
+        }
+    }
+
+    private IEnumerator DisplayItemText(string itemDescription)
+    {
+        itemText.text = itemDescription;
+
+        yield return new WaitForSeconds(5f);
+
+        itemText.text = "";
     }
 }
