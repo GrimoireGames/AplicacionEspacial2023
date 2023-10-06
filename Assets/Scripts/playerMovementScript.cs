@@ -47,8 +47,5 @@ public class PlayerMovementScript : MonoBehaviour
         //animator.SetFloat("Vertical", movement.y);
         //animator.SetFloat("Speed", movement.magnitude);
 
-        Debug.Log(movement.magnitude);
-        Debug.Log(movement.x);
-        Debug.Log(movement.y);
     }
 }
