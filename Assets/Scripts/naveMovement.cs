@@ -9,6 +9,13 @@ public class naveMovement : MonoBehaviour
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
 
+    public float timer;
+
+    private void Start()
+    {
+        timer = 0f;
+    }
+
     void Update()
     {
         float movimientoHorizontal = Input.GetAxis("Horizontal");
@@ -19,12 +26,25 @@ public class naveMovement : MonoBehaviour
         {
             Disparar();
         }
+
+        timer -= Time.deltaTime;
+
+        if (timer <= 0f)
+        {
+            CambioPlaneta();
+        }
     }
 
     void Disparar()
     {
         GameObject bala = Instantiate(balaPrefab, puntoDisparo.position, Quaternion.identity);
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
-        rbBala.velocity = new Vector2(velocidadBala, 0f);
+        rbBala.velocity = new Vector2(0f, velocidadBala);
+        Destroy(bala, 3f);
+    }
+
+    void CambioPlaneta()
+    {
+        //Agregar la mamera del cambiar al planeta deseado
     }
 }
