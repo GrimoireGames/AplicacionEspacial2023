@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6858785527926169518}
   m_Layer: 0
   m_Name: Meteorito
-  m_TagString: Untagged
+  m_TagString: Meteorito
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -9,6 +9,8 @@ public class naveMovement : MonoBehaviour
     public float timer;
     public float timeChange;
 
+    public int hits;
+
     private void Start()
     {
         timer = 0f;
@@ -33,5 +35,15 @@ public class naveMovement : MonoBehaviour
     void CambioPlaneta()
     {
         //Agregar la mamera del cambiar al planeta deseado
+    }
+
+    //Lógica para saber cuantas veces fue golpeado
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Meteorito"))
+        {
+            Destroy(collision.gameObject);
+            hits++;
+        }
     }
 }
