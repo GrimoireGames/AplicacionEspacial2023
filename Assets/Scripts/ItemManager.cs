@@ -4,8 +4,8 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     private static ItemManager instance;
-
     [SerializeField] private List<Item> items = new List<Item>();
+
 
     private void Awake()
     {
