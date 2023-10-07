@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.SceneManagement;
 
 public class playerSpaceshipInteract : MonoBehaviour
 {
-    public float interactionDistance = 2f; // The distance at which the player can interact with the spaceship
-    public LayerMask spaceshipLayer; // The layer that the spaceship is on
-    public TMP_Text interactionText; // The UI text element to display when the player is close to the spaceship
+    public Transform interactionText; // The text to display when the player is near the spaceship
+    public string sceneToLoad; // The name of the scene to load when the player interacts with the spaceship
 
-    private bool isNearSpaceship = false;
+    private bool isNearSpaceship;
 
     private void Start()
     {
@@ -38,8 +37,8 @@ public class playerSpaceshipInteract : MonoBehaviour
     {
         if (isNearSpaceship && Input.GetKeyDown(KeyCode.E))
         {
-            // Do something when the player presses the E key while near the spaceship
-            Debug.Log("Player interacted with spaceship");
+            // Load the specified scene when the player presses the E key while near the spaceship
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 }
