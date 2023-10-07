@@ -4,26 +4,28 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject objetoPrefab;
-    public int cantidadObjetos = 10;
-    public float fuerzaLanzamiento = 5f;
-    public float intervaloLanzamiento = 2f;
+    public GameObject enemigoPrefab;
+    public float fuerzaDeImpulso = 10f;
+    public float tiempoDeEspera = 2f;
+    public float rangoDeSpawn = 5f;
 
     void Start()
     {
-        StartCoroutine(LanzarObjetosCoroutine());
+        StartCoroutine(SpawnEnemigos());
     }
 
-    IEnumerator LanzarObjetosCoroutine()
+    IEnumerator SpawnEnemigos()
     {
         while (true)
         {
-            GameObject objeto = Instantiate(objetoPrefab, transform.position, Quaternion.identity);
-            Vector2 direccionLanzamiento = Random.insideUnitCircle.normalized;
+            tiempoDeEspera = Random.Range(0.75f, 1.25f);
+            float posX = transform.position.x + Random.Range(-rangoDeSpawn, rangoDeSpawn);
 
-            Rigidbody2D rbObjeto = objeto.GetComponent<Rigidbody2D>();
-            rbObjeto.AddForce(direccionLanzamiento * fuerzaLanzamiento, ForceMode2D.Impulse);
-            yield return new WaitForSeconds(intervaloLanzamiento);
+            GameObject nuevoEnemigo = Instantiate(enemigoPrefab, new Vector3(posX, transform.position.y, 0f), Quaternion.identity);
+            Rigidbody2D rb = nuevoEnemigo.GetComponent<Rigidbody2D>();
+            rb.AddForce(Vector2.down * fuerzaDeImpulso, ForceMode2D.Impulse);
+            Destroy(nuevoEnemigo, 3f);
+            yield return new WaitForSeconds(tiempoDeEspera);
         }
     }
 }
