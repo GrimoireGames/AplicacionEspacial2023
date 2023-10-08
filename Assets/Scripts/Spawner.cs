@@ -19,6 +19,7 @@ public class Spawner : MonoBehaviour
         while (true)
         {
             tiempoDeEspera = Random.Range(0.75f, 1.25f);
+            fuerzaDeImpulso = Random.Range(3f, 8f);
             float posX = transform.position.x + Random.Range(-rangoDeSpawn, rangoDeSpawn);
 
             GameObject nuevoEnemigo = Instantiate(enemigoPrefab, new Vector3(posX, transform.position.y, 0f), Quaternion.identity);
