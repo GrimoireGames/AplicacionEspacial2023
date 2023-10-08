@@ -6,6 +6,7 @@ public class PlayerMovementScript : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float collisionCheckDistance = 0.1f;
+    [SerializeField] private Vector2 _movementDirection;
 
     [SerializeField]private CapsuleCollider2D capsuleCollider;
     [SerializeField]private Animator animator;
@@ -40,6 +41,7 @@ public class PlayerMovementScript : MonoBehaviour
             }
         }
 
+        _movementDirection = movement.normalized;
         transform.position += movement * moveSpeed * Time.deltaTime;
 
         // Set animation parameters based on movement direction
@@ -47,5 +49,10 @@ public class PlayerMovementScript : MonoBehaviour
         //animator.SetFloat("Vertical", movement.y);
         //animator.SetFloat("Speed", movement.magnitude);
 
+    }
+
+    public Vector2 GetMovementDirection()
+    {
+        return _movementDirection;
     }
 }
