@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 2
-  timer: 0
+  timer: 100
   timeChange: 0
   hits: 0
 --- !u!50 &1207227951

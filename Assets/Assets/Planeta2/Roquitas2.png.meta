@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3df0a40ddf7faf48bc6a9a8bfc55de7
+guid: d40f4c58e582e5840b3bc8d7e9a6f39d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roquita4.1_0
+      name: Roquitas2_0
       rect:
         serializedVersion: 2
-        x: 291
-        y: 335
-        width: 135
-        height: 135
+        x: 636
+        y: 426
+        width: 105
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e64ea5886c08e5e468fd8e5839971513
-      internalID: 384251917
+      spriteID: 7a7909be3a607aa438270bee60ae1cc9
+      internalID: -1287754695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roquitas2_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 108
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99609d24642f8de418a4b97393b5dca4
+      internalID: -2053944617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roquitas2_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 189
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9953195ec976a4f93cc258fa89574a
+      internalID: -1924869417
       vertices: []
       indices: 
       edges: []
@@ -141,7 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roquita4.1_0: 384251917
+      Roquitas2_0: -1287754695
+      Roquitas2_1: -2053944617
+      Roquitas2_2: -1924869417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

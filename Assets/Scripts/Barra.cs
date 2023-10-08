@@ -14,10 +14,7 @@ public class Barra : MonoBehaviour
     private void Awake()
     {
         barra = GetComponent<Slider>();
-        if(slider != null )
-        {
-            slider = this;
-        }        
+        slider = this;       
     }
 
     public void ActualizarBarra(float valorMax, float valorAct)

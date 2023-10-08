@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3df0a40ddf7faf48bc6a9a8bfc55de7
+guid: 156d72883a643ad44b20983394129089
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roquita4.1_0
+      name: Arbolito2_0
       rect:
         serializedVersion: 2
-        x: 291
-        y: 335
-        width: 135
-        height: 135
+        x: 427
+        y: 129
+        width: 472
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e64ea5886c08e5e468fd8e5839971513
-      internalID: 384251917
+      spriteID: 7b6b4326417689a46ba796c0ee7b8693
+      internalID: -1596855729
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roquita4.1_0: 384251917
+      Arbolito2_0: -1596855729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

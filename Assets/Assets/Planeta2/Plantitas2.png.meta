@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3df0a40ddf7faf48bc6a9a8bfc55de7
+guid: 25b78b2252c50c14ab59b891230f437d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roquita4.1_0
+      name: Plantitas2_0
       rect:
         serializedVersion: 2
-        x: 291
-        y: 335
-        width: 135
-        height: 135
+        x: 95
+        y: 247
+        width: 85
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e64ea5886c08e5e468fd8e5839971513
-      internalID: 384251917
+      spriteID: fc653c78349f60342b31583827f98718
+      internalID: -1899262408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plantitas2_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 166
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0cec649395fe04c87bb2e8f91b2080
+      internalID: 606398667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plantitas2_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 177
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442070840bc567d4b9237578275d8c6a
+      internalID: 749193553
       vertices: []
       indices: 
       edges: []
@@ -141,7 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roquita4.1_0: 384251917
+      Plantitas2_0: -1899262408
+      Plantitas2_1: 606398667
+      Plantitas2_2: 749193553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

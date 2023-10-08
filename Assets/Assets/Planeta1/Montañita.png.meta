@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3df0a40ddf7faf48bc6a9a8bfc55de7
+guid: 6ad8097306f51524ca0f13ad5338a585
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roquita4.1_0
+      name: "Monta\xF1ita_5"
       rect:
         serializedVersion: 2
-        x: 291
-        y: 335
-        width: 135
-        height: 135
+        x: 75
+        y: 420
+        width: 583
+        height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e64ea5886c08e5e468fd8e5839971513
-      internalID: 384251917
+      spriteID: f0c69e7d17f51e94fa6cba10c8538f79
+      internalID: -196449811
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roquita4.1_0: 384251917
+      "Monta\xF1ita_0": 207028147
+      "Monta\xF1ita_1": -276942013
+      "Monta\xF1ita_2": 254889388
+      "Monta\xF1ita_3": -1700575723
+      "Monta\xF1ita_4": -433461664
+      "Monta\xF1ita_5": -196449811
+      "Monta\xF1ita_6": -1523087873
+      "Monta\xF1ita_7": -588634862
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
