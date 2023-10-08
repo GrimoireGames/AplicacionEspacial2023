@@ -8,6 +8,7 @@ TagManager:
   - Item
   - Meteorito
   - Spaceship
+  - Mouse
   layers:
   - Default
   - TransparentFX
