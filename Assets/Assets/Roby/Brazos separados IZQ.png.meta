@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c87bd13653f3b0744a5e6aa08251593c
+guid: 3bf855cef2cec8b49bdfcf14a9aef627
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,18 +37,18 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 75
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Brazos separados IZQ_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 71
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.878953, y: 0.5171779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac857dd65879aa4f96392bcf5fc1da0
+      internalID: 1532375514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brazos separados IZQ_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 78
+        width: 58
+        height: 10
+      alignment: 9
+      pivot: {x: 0.95432335, y: 0.522332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9f79ab1f25fa84a8ce4a499cdfcb18
+      internalID: -165327143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brazos separados IZQ_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 25
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed5181bec2a78348bd229c5bc2b24a9
+      internalID: -160272245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brazos separados IZQ_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 61
+        height: 10
+      alignment: 9
+      pivot: {x: 0.94296217, y: 0.54466283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ace90cf7874e843823259cdfd325cc
+      internalID: 695613202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brazos separados IZQ_0: 1532375514
+      Brazos separados IZQ_1: -165327143
+      Brazos separados IZQ_2: -160272245
+      Brazos separados IZQ_3: 695613202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

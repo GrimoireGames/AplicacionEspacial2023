@@ -14,7 +14,7 @@ public class PlayerMovementScript : MonoBehaviour
     private void Start()
     {
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -45,9 +45,9 @@ public class PlayerMovementScript : MonoBehaviour
         transform.position += movement * moveSpeed * Time.deltaTime;
 
         // Set animation parameters based on movement direction
-        //animator.SetFloat("Horizontal", movement.x);
-        //animator.SetFloat("Vertical", movement.y);
-        //animator.SetFloat("Speed", movement.magnitude);
+        animator.SetFloat("Horizontal", _movementDirection.x);
+        animator.SetFloat("Vertical", _movementDirection.y);
+        animator.SetFloat("Speed", _movementDirection.magnitude);
 
     }
 

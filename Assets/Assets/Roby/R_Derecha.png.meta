@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c87bd13653f3b0744a5e6aa08251593c
+guid: a953401ca10da5448b82c2685ab0ce0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,18 +37,18 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 75
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: R_Derecha_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 413
+        width: 182
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db26804ec1fadda4eb220542f31cde62
+      internalID: -1289038644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Derecha_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 422
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bada12701c5d6b449950b647ab87543
+      internalID: -513366590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Derecha_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 178
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1583cdf6368574b9e0e3a55692fa89
+      internalID: 1851131697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Derecha_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 145
+        width: 242
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b3d508f9390ff4fbe5a94c185a4ff0
+      internalID: -1806166511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Derecha_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 38
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b6b761390e8414088bb78514d595d9
+      internalID: 1283388519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      R_Derecha_0: -1289038644
+      R_Derecha_1: -513366590
+      R_Derecha_2: 437015183
+      R_Derecha_3: 1556342693
+      R_Derecha_4: 1851131697
+      R_Derecha_5: -1806166511
+      R_Derecha_6: 1283388519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

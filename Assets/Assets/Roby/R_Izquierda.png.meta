@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c87bd13653f3b0744a5e6aa08251593c
+guid: 07293afe198452f47948047e2e0ce7fc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,18 +37,18 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 75
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: R_Izquierda_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 422
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ce0fdc9b09f0498263567179d50eb
+      internalID: -47689285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Izquierda_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 413
+        width: 182
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1242fc6e731e0104c80ab7802413e529
+      internalID: -1755420924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Izquierda_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 145
+        width: 242
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3911f510b442d574298ea30f28dead20
+      internalID: -2062160892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Izquierda_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 178
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802d13846101104e9942e2760597f06
+      internalID: -648027481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Izquierda_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 38
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8874b9095eb1e604ab517220416b1fb2
+      internalID: 1302890723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      R_Izquierda_0: -47689285
+      R_Izquierda_1: -1755420924
+      R_Izquierda_2: -964661004
+      R_Izquierda_3: 1348462541
+      R_Izquierda_4: -2062160892
+      R_Izquierda_5: -648027481
+      R_Izquierda_6: 1302890723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
