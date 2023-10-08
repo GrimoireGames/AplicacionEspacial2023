@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class naveMovement : MonoBehaviour
 {
@@ -10,11 +11,14 @@ public class naveMovement : MonoBehaviour
     public float timeChange;
 
     public int hits;
+    PlanetManager planetManager;
 
     private void Start()
     {
         timer = 0f;
         timeChange = Random.Range(60f, 90f);
+
+        planetManager = GameObject.Find("PlanetManager").GetComponent<PlanetManager>();
     }
 
     void Update()
@@ -34,7 +38,18 @@ public class naveMovement : MonoBehaviour
 
     void CambioPlaneta()
     {
-        //Agregar la mamera del cambiar al planeta deseado
+        if (planetManager.whichPlanet == 1)
+        {
+            SceneManager.LoadScene("Planeta1");
+        }
+        if (planetManager.whichPlanet == 2)
+        {
+            SceneManager.LoadScene("Planeta2");
+        }
+        if (planetManager.whichPlanet == 3)
+        {
+            SceneManager.LoadScene("Planeta3");
+        }
     }
 
     //Lógica para saber cuantas veces fue golpeado
