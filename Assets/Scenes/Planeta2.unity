@@ -779,6 +779,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1167090968}
     m_Modifications:
+    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2152641157395724493, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -830,10 +834,6 @@ PrefabInstance:
     - target: {fileID: 7918863884119701911, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
-      propertyPath: m_FlipX
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2190,6 +2190,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1167090968}
     m_Modifications:
+    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2152641157395724493, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -2241,10 +2245,6 @@ PrefabInstance:
     - target: {fileID: 7918863884119701911, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
-      propertyPath: m_FlipX
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10136,7 +10136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeSlider: {fileID: 1811808203}
-  sceneToLoad: 
+  sceneToLoad: PlanetChoose
   totalTime: 120
 --- !u!4 &1874384923 stripped
 Transform:
@@ -11185,6 +11185,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1167090968}
     m_Modifications:
+    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2152641157395724493, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -11236,10 +11240,6 @@ PrefabInstance:
     - target: {fileID: 7918863884119701911, guid: 9b68ae06896e090458ed15bcdfcdb0ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9093323552385409186, guid: c3c1eb22ba9d7ee4c907d10a2255f3b3, type: 3}
-      propertyPath: m_FlipX
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
