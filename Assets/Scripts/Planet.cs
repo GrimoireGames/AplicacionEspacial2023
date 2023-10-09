@@ -7,6 +7,7 @@ public class Planet : MonoBehaviour
     public int numPlaneta;
     public PlanetManager planetManager;
     public GameObject planetManagerObj;
+    public bool visitado;
 
     private void Awake()
     {
@@ -14,9 +15,17 @@ public class Planet : MonoBehaviour
         planetManager = planetManagerObj.GetComponent<PlanetManager>();
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
-        Debug.Log("Cambio");
-        planetManager.GuardarPlaneta(numPlaneta);
+        if(!visitado)
+        {
+            Debug.Log("Cambio");
+            planetManager.GuardarPlaneta(numPlaneta);
+            visitado = true;
+        }
+        else if (visitado)
+        {
+            Debug.Log("Visitado");
+        }
     }
 }

@@ -13,10 +13,12 @@ public class naveMovement : MonoBehaviour
     public int hits;
     PlanetManager planetManager;
 
+    public string Planeta1, Planeta2, Planeta3;
+
     private void Start()
     {
         timer = 0f;
-        timeChange = Random.Range(60f, 90f);
+        timeChange = Random.Range(50f, 80f);
 
         planetManager = GameObject.Find("PlanetManager").GetComponent<PlanetManager>();
     }
@@ -40,19 +42,19 @@ public class naveMovement : MonoBehaviour
     {
         if (planetManager.whichPlanet == 1)
         {
-            SceneManager.LoadScene("Planeta1");
+            SceneManager.LoadScene(Planeta1);
         }
         if (planetManager.whichPlanet == 2)
         {
-            SceneManager.LoadScene("Planeta2");
+            SceneManager.LoadScene(Planeta2);
         }
         if (planetManager.whichPlanet == 3)
         {
-            SceneManager.LoadScene("Planeta3");
+            SceneManager.LoadScene(Planeta3);
         }
     }
 
-    //Lógica para saber cuantas veces fue golpeado
+    //Lï¿½gica para saber cuantas veces fue golpeado
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Meteorito"))

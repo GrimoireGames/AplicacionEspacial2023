@@ -7,6 +7,7 @@ public class PlanetManager : MonoBehaviour
 {
     public static PlanetManager Instance;
     public int whichPlanet;
+    public bool Planeta1Visitado, Planeta2Visitado, Planeta3Visitado;
 
     private void Start()
     {
