@@ -1041,7 +1041,7 @@ MonoBehaviour:
   hits: 0
   Planeta1: Planeta1
   Planeta2: Planeta2
-  Planeta3: 
+  Planeta3: Planeta3
 --- !u!50 &1207227951
 Rigidbody2D:
   serializedVersion: 4

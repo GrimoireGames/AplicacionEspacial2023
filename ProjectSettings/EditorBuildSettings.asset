@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Planeta2.unity
     guid: 3778a4fd5cfed0a4eaf07694937fec9a
   - enabled: 1
+    path: Assets/Scenes/Planeta3.unity
+    guid: 103cfbbc12c16534a9a15f9257f9fca9
+  - enabled: 1
     path: Assets/Scenes/Navecita.unity
     guid: 437efcb5a0954a9458164ef5f6717184
   m_configObjects: {}

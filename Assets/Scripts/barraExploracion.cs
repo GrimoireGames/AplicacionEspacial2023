@@ -20,7 +20,7 @@ public class barraExploracion : MonoBehaviour
         remainingTime = totalTime;
 
         planetManager = GameObject.Find("PlanetManager").GetComponent<PlanetManager>();
-        remainingTime = remainingTime - planetManager.daño;
+        remainingTime = remainingTime - planetManager.daÃ±o;
     }
 
     // Update is called once per frame

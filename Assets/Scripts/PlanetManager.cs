@@ -8,7 +8,7 @@ public class PlanetManager : MonoBehaviour
     public static PlanetManager Instance;
     public int whichPlanet;
     public bool Planeta1Visitado, Planeta2Visitado, Planeta3Visitado;
-    public int daño;
+    public int daÃ±o;
 
     private void Start()
     {

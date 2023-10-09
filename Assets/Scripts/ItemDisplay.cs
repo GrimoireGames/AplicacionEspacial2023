@@ -54,7 +54,7 @@ public class ItemDisplay : MonoBehaviour
         itemImage.sprite = itemInfo.itemObject.GetComponent<SpriteRenderer>().sprite;
         itemImage.enabled = true;
 
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(7f);
 
         itemText.text = "";
         itemName.text = ""; // clear the item name
