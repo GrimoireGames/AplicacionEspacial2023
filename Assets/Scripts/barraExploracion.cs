@@ -12,10 +12,15 @@ public class barraExploracion : MonoBehaviour
     public float totalTime; // Total time for exploring in seconds
     private float remainingTime; // Remaining time for exploring in seconds
 
+    PlanetManager planetManager;
+
     // Start is called before the first frame update
     void Start()
     {
         remainingTime = totalTime;
+
+        planetManager = GameObject.Find("PlanetManager").GetComponent<PlanetManager>();
+        remainingTime = remainingTime - planetManager.daño;
     }
 
     // Update is called once per frame

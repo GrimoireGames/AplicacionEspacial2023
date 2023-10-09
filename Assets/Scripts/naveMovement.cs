@@ -60,7 +60,8 @@ public class naveMovement : MonoBehaviour
         if (collision.CompareTag("Meteorito"))
         {
             Destroy(collision.gameObject);
-            hits++;
+            //hits++;
+            planetManager.daño++;
         }
     }
 }
